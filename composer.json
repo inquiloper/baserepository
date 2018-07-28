@@ -1,0 +1,21 @@
+{
+    "name": "inquiloper/baserepository",
+    "description": "A base repository that wraps some of laravel eloquent's functionality so you can share it among your own repositories.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "inquiloper",
+            "email": "inquiloper@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Inquiloper\\BaseRepository\\BaseRepositoryProvider"
+            ]
+        }
+    }
+}
