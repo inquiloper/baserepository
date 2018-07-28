@@ -17,5 +17,10 @@
                 "Inquiloper\\BaseRepository\\BaseRepositoryProvider"
             ]
         }
+    },
+    "autoload": {
+        "psr-4": {
+            "Inquiloper\\BaseRepository\\": "src/"
+        }
     }
 }
