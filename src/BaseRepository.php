@@ -16,7 +16,7 @@ class BaseRepository implements BaseRepositoryInterface
 
     public function findAll()
     {
-        return $this->model->get();
+        return $this->queryBuilder->get();
     }
 
     public function findAllBy($fields){
